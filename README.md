@@ -58,10 +58,17 @@ Vous devrez donc créer votre message, calculer le contrôle d’intégrité (IC
 - Vous pouvez vous guider à partir du script fourni pour les différentes conversions de formats qui pourraient être nécessaires.
 - Vous pouvez exporter votre nouvelle trame en format pcap utilisant Scapy et ensuite, l’importer dans Wireshark. Si Wireshark est capable de déchiffrer votre trame forgée, elle est correcte !
 
+## Capture d'écran du déchiffrement par wireshark
+
+![](img/2.png)
 
 ### 3. Fragmentation
 
 Dans cette partie, vous allez enrichir votre script développé dans la partie précédente pour chiffrer 3 fragments.
+
+## Capture d'écran du déchiffrement par wireshark
+
+![](img/3.png)
 
 ### Quelques éléments à considérer :
 
@@ -77,14 +84,14 @@ Dans cette partie, vous allez enrichir votre script développé dans la partie p
 
 Un fork du repo original . Puis, un Pull Request contenant :
 
--	Script de chiffrement WEP **abondamment commenté/documenté**
-  - Fichier pcap généré par votre script contenant la trame chiffrée
-  - Capture d’écran de votre trame importée et déchiffré par Wireshark
+-	Script de chiffrement WEP **abondamment commenté/documenté** OK
+  - Fichier pcap généré par votre script contenant la trame chiffrée OK
+  - Capture d’écran de votre trame importée et déchiffré par Wireshark OK
 -	Script de fragmentation **abondamment commenté/documenté**
-  - Fichier pcap généré par votre script contenant les fragments
-  - Capture d’écran de vos trames importées et déchiffrés par Wireshark 
+  - Fichier pcap généré par votre script contenant les fragments OK
+  - Capture d’écran de vos trames importées et déchiffrés par Wireshark  OK 
 
--	Envoyer le hash du commit et votre username GitHub par email au professeur et à l'assistant
+-	Envoyer le hash du commit et votre username GitHub par email au professeur et à l'assistant 
 
 
 ## Échéance
